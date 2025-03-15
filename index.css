@@ -1,0 +1,88 @@
+
+body{
+    background-image:linear-gradient( to right bottom, white,lightblue, blue);
+}
+
+span{
+    font-weight: 700;
+    color: rgb(60, 255, 0);
+}
+header a{
+     color: lightblue;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 15px;
+}
+   header img{
+        margin: 30px;
+    }
+    header img:hover{
+        opacity: 0.6;
+    }
+    header h1{
+        text-align: center;
+        margin-top:+3%;    
+    }
+    header h1:hover{
+    opacity: 0.4;
+    }
+    header{
+        
+        width: 100%;
+        height: 30%;
+        
+    }
+    h1{
+        text-align: center;
+    }
+
+    .platform{
+        display: flex;
+        justify-content: space-around;
+    }
+    .platform img{
+        
+        width: 100px;
+        height: 100px;
+    }
+
+    .fix img{
+        top: 80%;
+        right: 0%;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        margin-top: 15px;
+        opacity: 0.7;
+    }
+    .fix img:hover{
+        opacity: 0;
+    }
+    iframe{
+        width: 500px;
+        height: 500px;
+        justify-content: center;
+        margin: 60px;
+    }
+    iframe:hover{
+        border: 10px double orange;
+    }
+    footer{
+        width: 100%;
+        height: 40%;
+    }
+    footer h1{
+        text-align: center;
+    }
+.android{
+    border-radius: 20px;
+}
+.Shorts{
+    color: green;
+}
+.Shorts:hover{
+    opacity: 0.4;
+}
